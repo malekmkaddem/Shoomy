@@ -76,13 +76,13 @@ body *{
 
 h1, h2, h3, h4, h5, h6, strong{
 	color: var(--mainText);
-	font-family: Lucida Bright , serif;
+	font-family: 'Bahnschrift SemiBold', monospace;
 	font-weight: 500;
 }
 
 p, li, span, label, input, textarea{
 	color: var(--secondaryText);
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Segoe UI', monospace;
 }
 
 a{
@@ -215,8 +215,8 @@ h6 { font-size: 16px;}
 	display: block;
 	margin:0 auto;
 
-	height: 200px;
-	width: 200px;
+	height: 250px;
+	width: 220px;
 	object-fit: cover;
 	
     
@@ -441,6 +441,7 @@ h6 { font-size: 16px;}
 	.main-container{
 		width: 95%;
 	}
+    
 }
 
 @media screen and (max-width: 800px){
@@ -452,6 +453,8 @@ h6 { font-size: 16px;}
 			'right-column'
             
 		;
+        padding-left: 3%;
+        padding-right: 3%;
 	}
 
 	.right-column{
@@ -496,6 +499,7 @@ h6 { font-size: 16px;}
         width: 280px;
 
 	}
+    
     
 
 }
